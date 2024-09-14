@@ -7,7 +7,7 @@ class TeacherDashboardActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_teacher_dashboard)
+        setContentView(R.layout.dashboard)
 
         // Add your teacher dashboard logic here
     }
