@@ -14,9 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        teacherButton = findViewById(R.id.teacherButton)
-        studentButton = findViewById(R.id.studentButton)
+        // Correct references to button IDs from the layout file
+        teacherButton = findViewById(R.id.button2)
+        studentButton = findViewById(R.id.button)
 
+        // Set click listeners for the buttons
         teacherButton.setOnClickListener {
             // Redirect to teacher's dashboard
             val intent = Intent(this, TeacherDashboardActivity::class.java)
