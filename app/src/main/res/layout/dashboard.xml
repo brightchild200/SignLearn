@@ -9,14 +9,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to the Dashboard!"
+        android:text="Welcome to the SignLearn!"
         android:fontFamily="@font/playfairdisplay_italic"
         android:textSize="20sp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to the Dashboard!"
-        android:fontFamily="@font/playfair_display"
-        android:textSize="20sp"/>
+
 
 </LinearLayout>
