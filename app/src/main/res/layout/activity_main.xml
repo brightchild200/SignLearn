@@ -14,8 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
         android:text="Hello!"
+        android:padding="26dp"
+        android:fontFamily="@font/rubikvinyl"
+        android:textFontWeight="600"
         android:textColor="#ffffff"
-        android:textSize="24sp"
+        android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
