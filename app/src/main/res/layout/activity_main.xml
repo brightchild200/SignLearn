@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
-        android:text="Hello"
+        android:text="કેમ છો !"
         android:padding="26dp"
         android:fontFamily="@font/rubikvinyl"
         android:textFontWeight="600"
@@ -29,7 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="May I know your role ..."
+        android:text="May I know your role .."
+        android:textStyle="bold"
         android:textColor="#ffffff"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +47,7 @@
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView2"
-        android:textColor="#FF0000"
+
             />
     <!-- Teacher button -->
 

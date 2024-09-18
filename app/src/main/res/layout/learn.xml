@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:text="Practice"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="145dp"
+        android:layout_height="44dp"
+        android:text="Assignments"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="154dp"
+        android:layout_height="42dp"
+        android:text="Parents"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <SearchView
+        android:layout_width="409dp"
+        android:layout_height="45dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="424dp"
+        android:layout_height="604dp"
+        app:srcCompat="@drawable/fd2275dc004bbd7ad142a2cf89c0789f"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="320dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
