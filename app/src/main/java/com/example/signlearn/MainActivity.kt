@@ -10,14 +10,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Setting the layout resource to welcome.xml
         setContentView(R.layout.welcome)
 
-        // Delay of 5 seconds (5000 milliseconds) before redirecting to Mainpg1
+        // Delay for 3 seconds before redirecting to the dashboard
         Handler(Looper.getMainLooper()).postDelayed({
-            // Redirect to Mainpg1 activity
-            val intent = Intent(this, ::class.java)
+            // Intent to navigate to the dashboard activity
+            val intent = Intent(this@MainActivity, DashboardActivity::class.java)
             startActivity(intent)
-            finish() // Close current activity so it doesn't remain in the back stack
-        }, 2000)
+            finish() // Finish this activity so the user cannot return to it
+        }, 3000) // 3000 milliseconds = 3 seconds
     }
 }

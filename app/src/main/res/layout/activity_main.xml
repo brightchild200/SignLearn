@@ -11,22 +11,22 @@
 
     <!-- Question text -->
 
+    <!-- Student button -->
+    <!-- Teacher button -->
+
     <ImageView
         android:layout_width="453dp"
         android:layout_height="258dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/clogo"
-        tools:layout_editor_absoluteY="-6dp" />
-
-    <!-- Student button -->
-    <!-- Teacher button -->
+        tools:layout_editor_absoluteY="-10dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="304dp"
+        android:layout_marginTop="344dp"
         android:fontFamily="@font/rubikvinyl"
         android:padding="26dp"
         android:text="કેમ છો !"
@@ -34,7 +34,7 @@
         android:textFontWeight="600"
         android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
